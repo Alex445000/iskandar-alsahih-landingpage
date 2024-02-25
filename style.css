@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7e6; /* Light yellow background */
+    color: #333;
+}
+
+header {
+    background-color: #ff9900; /* Orange background for header */
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust based on your logo's size */
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none; /* Removes bullet points from list */
+    padding: 0; /* Removes default padding */
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffcc00; /* Yellow background for banner */
+    color: #fff;
+}
+
+.mint-btn {
+    background-color: #ff6600; /* Darker orange for CTA button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center; /* Aligns images side by side in the center */
+    gap: 20px; /* Adds space between the images */
+    padding: 20px 0;
+}
+
+.images img.frog-image {
+    width: auto; /* Maintains aspect ratio */
+    height: 150px; /* Adjust based on desired size */
+    border-radius: 10px; /* Rounds the corners of the images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow effect */
+}
+
+.testimonials {
+    text-align: center; /* Centers the text in the testimonials */
+    padding: 50px 20px;
+    background-color: #fff6e0; /* Very light yellow for testimonials */
+}
+
+.testimonial-container {
+    display: inline-block; /* Allows the container to fit the content width and be centered */
+    text-align: left; /* Aligns the testimonial text to the left within the centered container */
+}
+
+.testimonial p {
+    border-left: 4px solid #ff9900; /* Orange accent for testimonials */
+    padding: 10px 0 10px 20px; /* Adjusted padding for aesthetic spacing */
+    margin: 10px 0; /* Adds space between testimonials */
+    display: inline-block; /* Treats each testimonial as an inline block element */
+    background-color: #ffffff; /* Adds a background color to each testimonial */
+    border-radius: 5px; /* Rounds the corners of the testimonial backgrounds */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow to each testimonial */
+}
+
+.events {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff9900; /* Orange background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
